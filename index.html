@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>App Citations</title>
+    <script type="module" src="script.js" defer></script>
+    <style src="style.css"></style>
 </head>
 <body>
     <main>
@@ -15,13 +17,13 @@
             <label for="quote">Citation</label>
             <input type="text" name="quote" id="quote">
             <label for="author">Auteur·ice</label>
-            <textarea name="author" id="author"></textarea>
-            <button type="submit">Ajouter</button>
+            <input name="author" id="author"></input>
+            <button type="submit" class="submit-btn">Ajouter</button>
         </form>
         <div id="quote-list">
             <div class="quote">
                 <p class="text">"On ne naît pas femme, on le devient."</p>
-                <p class="author">Simone de Beauvoir</p>
+                <p class="author"></p>
             </div>
         </div>
     </main>
