@@ -5,27 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>App Citations</title>
     <script type="module" src="script.js" defer></script>
-    <style src="style.css"></style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <main>
         <h1>Mes citations</h1>
         <h2>Gestionnaire de citations en ligne</h2>
-        <h3>0 citations</h3>
-        <hr>
+        <h3 id="count">0 citations</h3>
+
         <form action="" id="quote-form">
-            <label for="quote">Citation</label>
-            <input type="text" name="quote" id="quote">
-            <label for="author">Auteur·ice</label>
-            <input name="author" id="author"></input>
+            <label for="quote">Citation</label> <br>
+            <input type="text" name="quote" id="quote"> <br>
+            <label for="author">Auteur·ice</label> <br>
+            <input name="author" id="author"></input> <br>
             <button type="submit" class="submit-btn">Ajouter</button>
         </form>
+
         <div id="quote-list">
             <div class="quote">
                 <p class="text">"On ne naît pas femme, on le devient."</p>
                 <p class="author">Simone de Beauvoir</p>
             </div>
         </div>
+        
     </main>
 </body>
 </html>

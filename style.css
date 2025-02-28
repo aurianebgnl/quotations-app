@@ -1,0 +1,76 @@
+*{
+    font-family: "Manrope", serif;
+}
+
+.manrope{
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+
+  :root {
+    --violet-strong : #874FFF;
+    --violet-medium : #a77eff;
+    --violet-light  : #DCCCFF;
+    --green-strong  : #2dc842;
+    --green-light   : #cbf2d0;
+    --red-strong    : #F24822;
+    --red-light     : #FFC7C2;
+    --grey-strong   : #5e5e5ea2;
+    --grey-light    : #d7d7d7a2;
+    --cream-white : #f8f8f8;
+    --black : #000000;
+}
+
+body {
+    background: white); 
+    margin : 0 auto;
+    padding: 10% ;
+  }
+  
+    main {
+        text-align: center;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: var(--cream-white);
+        border-radius: 10px;
+        box-shadow: 6px 6px 0px var(--grey-light);
+    }
+
+    .text {
+        font-style: italic; 
+    }
+
+    .submit-btn {
+        background-color: var(--violet-strong);
+        color: var(--cream-white);
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 6px 6px 0px var(--grey-light);
+        font-family: "manrope", serif;
+        font-size: 1em;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .submit-btn:hover {
+        background-color: var(--violet-medium);
+    }
+
+        #quote-list {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        
+        }
+    
